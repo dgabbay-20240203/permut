@@ -164,6 +164,16 @@ static void remove_element_from_list(short index)
 
 }
 
+/*
+Description:
+This function generates a random number in the range of 0 to "range - 1".
+Function name: generateRandom()
+Input parameters:
+range - a number that determines the range, 0 to "range - 1". Must be greater than zero.
+Return:
+A random number within the specified range.
+*/
+
 static unsigned short generateRandom(unsigned short range)
 {
     static char first_time = 1;
