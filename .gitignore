@@ -3,3 +3,7 @@
 
 # ignore ALL .o files
 *.o
+
+# ignore ALL .ini files
+*.ini
+
