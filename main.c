@@ -2,9 +2,13 @@
 Author: Dan Gabbay
 Date: Dec. 31, 2023
 
+Description:
+This computer program generates a random permutation of 'n' different elements,
+where 'n' must be in the range of 1 to 10000.
+
+Example ('n' is 10 in this case):
+>permut.exe 10<CR>
 */
-
-
 
 #include <stdint.h>
 #include <string.h>
