@@ -7,3 +7,5 @@
 # ignore ALL .ini files
 *.ini
 
+# ignore ALL .layout files
+*.layout
