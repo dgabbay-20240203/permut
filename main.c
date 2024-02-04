@@ -152,10 +152,10 @@ static void InitializeListOfElements(short num_of_elements)
 
 /*
 Description:
-This function removes an element for a doubly linked list stored in an array.
+This function removes an element from a doubly linked list stored in an array.
 Function name: remove_element_from_list()
 Input parameters:
-index - Pointer to the element to be removed for the list.
+index - Pointer to the element to be removed from the list.
 Return:
 None
 */
