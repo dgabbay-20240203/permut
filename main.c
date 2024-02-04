@@ -26,6 +26,7 @@ static void print_permutation(short number_of_different_elements);
 short pointerToFirstElement = 0, pointerToElement;
 short rand_val, i, j;
 
+/* An element of a doubly linked list */
 typedef struct tag_name {
     short val;
     short next;
@@ -123,6 +124,15 @@ static void print_permutation(short number_of_different_elements)
     printf("%d\n};\n", permutation[i]);
 }
 
+/*
+Description:
+This function initializes a doubly linked list with a specific number of elements.
+Function name: InitializeListOfElements()
+Input parameters:
+num_of_elements - Number of elements in the list.
+Return:
+None
+*/
 
 static void InitializeListOfElements(short num_of_elements)
 {
@@ -139,6 +149,16 @@ static void InitializeListOfElements(short num_of_elements)
         list_of_elemets[num_of_elements - 1].next = -1;
     }
 }
+
+/*
+Description:
+This function removes an element for a doubly linked list stored in an array.
+Function name: remove_element_from_list()
+Input parameters:
+index - Pointer to the element to be removed for the list.
+Return:
+None
+*/
 
 static void remove_element_from_list(short index)
 {
