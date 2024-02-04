@@ -42,6 +42,7 @@ int main(int argc, char* argv[])
     short number_of_different_elements = 10000, number_of_different_elements_left = 0;
 
     unsigned char permutation_is_valid = 1;
+    printf("UTILITY VERSION: 1.0, DATE AND TIME: 2024-02-04 8:45 AM EASTERN TIME\n");
 
     if (argc != 2)
     {
