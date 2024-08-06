@@ -108,7 +108,7 @@ int main(int argc, char* argv[])
     }
 }
 
-// This function prints all the different elemnts of a permutation.
+// This function prints all the different elements of a permutation.
 static void print_permutation(short number_of_different_elements)
 {
     short i;
