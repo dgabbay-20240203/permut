@@ -96,6 +96,8 @@ int main(int argc, char* argv[])
 
     if (permutation_is_valid == 1)
     {
+        // We only generate an output if we know for sure that the permutation
+        // was verified and found to be valid.
         print_permutation(number_of_different_elements);
         return 0;
     }
@@ -106,7 +108,7 @@ int main(int argc, char* argv[])
     }
 }
 
-
+// This function prints all the different elements of a permutation.
 static void print_permutation(short number_of_different_elements)
 {
     short i;
